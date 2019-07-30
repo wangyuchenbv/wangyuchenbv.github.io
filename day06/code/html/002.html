@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            width: 600px;
+            height: 30px;
+            border-bottom: 3px solid red;
+            margin: 100px auto;
+        }
+
+
+        ul li {
+            float: left;
+            width: 140px;
+            font-size: 16px;
+            line-height: 35px;
+            height: 35px;
+
+        }
+
+        ul li a {
+            display: block;
+        }
+
+        ul li .yingwen {
+            display: none;
+        }
+
+        ul li:hover .zhongwen {
+            display: none;
+
+        }
+
+        ul li:hover .yingwen {
+            display: block;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="" class="zhongwen">首页</a>
+                <a href="" class="yingwen">home</a>
+            </li>
+            <li><a href="" class="zhongwen">下载</a>
+                <a href="" class="yingwen">download</a>
+            </li>
+            <li><a href="" class="zhongwen">运维</a>
+                <a href="" class="yingwen">operation</a>
+            </li>
+            <li><a href="" class="zhongwen">资源</a>
+                <a href="" class="yingwen">resourse</a>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
