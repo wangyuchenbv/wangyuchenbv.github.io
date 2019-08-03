@@ -4,3 +4,9 @@
 <a href="https://wangyuchenbv.github.io/小鹿 - 副本/html/001.html">小鹿</a>
 
 <a href="https://wangyuchenbv.github.io/day10/html/004.html">管理系统</a>
+
+
+<a href="https://wangyuchenbv.github.io/allpyra/html/001.html">allpyra移动端</a>
+
+
+
