@@ -1,0 +1,329 @@
+html,
+body {
+    height: 100%;
+}
+
+#elm {
+    height: 100%;
+}
+
+header {
+    height: 2.533333rem;
+    background: #0195FF;
+    padding-top: .493333rem;
+    box-sizing: border-box;
+
+    p {
+        font-size: .426667rem;
+        height: .426667rem;
+        line-height: .426667rem;
+        color: #fff;
+        margin-bottom: .426667rem;
+        padding-left: .853333rem;
+    }
+
+    form {
+        input {
+            width: 9.306667rem;
+            height: .986667rem;
+            // margin-left: .32rem;
+            line-height: .933333rem;
+            font-size: .373333rem;
+            text-align: center;
+            display: block;
+            margin: auto;
+
+
+
+        }
+    }
+
+}
+
+
+main {
+    padding: 0rem .28rem 0rem;
+
+
+    .main0 {
+        margin-bottom: .4rem;
+
+        ul {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+
+
+            li {
+                display: flex;
+
+                flex-direction: column;
+                width: 20%;
+                height: 2.373333rem;
+                // box-sizing: border-box;
+                // border: 1px solid #ccc;
+                justify-content: center;
+                align-items: center;
+
+
+
+
+                img {
+                    width: 1.6rem;
+
+                    height: 1.6rem;
+                }
+
+
+            }
+        }
+
+    }
+
+    .main1 {
+
+        margin-bottom: .08rem;
+
+        .dv1 {
+            background: #F7F7F7;
+            padding-left: .4rem;
+            overflow: hidden;
+            background: url(../images/list1.webp) no-repeat;
+            background-size: 2.666667rem 2.666667rem;
+            background-position: 5.333333rem .133333rem;
+            ;
+
+            h2 {
+                font-size: .426667rem;
+                line-height: .426667rem;
+                margin-top: .346667rem;
+                margin-bottom: .226667rem;
+                color: #353535;
+                font-weight: 900;
+            }
+
+            p {
+                font-size: .333333rem;
+                color: #797979;
+                margin-bottom: .32rem;
+                font-weight: 600;
+            }
+
+            span {
+                display: block;
+                margin-bottom: .933333rem;
+            }
+
+            span a {
+                color: #C0825B;
+
+            }
+
+
+
+
+        }
+
+
+    }
+
+    .main2 {
+
+        img {
+            width: 9.44rem;
+            height: 2.333333rem;
+        }
+
+
+
+
+
+    }
+
+    .main3 {
+        padding-top: .533333rem;
+
+        p {
+            font-size: .4rem;
+            color: #000000;
+            font-weight: 600;
+            text-align: center;
+            line-height: .4rem;
+            margin-bottom: .6rem;
+        }
+
+        ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+
+            li {
+
+                font-size: .4rem;
+                color: #656565;
+            }
+        }
+
+    }
+
+    .main4 {
+        padding-top: .36rem;
+
+        .main_4_1 {
+            overflow: hidden;
+            margin-bottom: .533333rem;
+
+        }
+
+        .main_l {
+            float: left;
+            margin-right: .213333rem;
+
+            img {
+                width: 1.733333rem;
+                height: 1.733333rem;
+            }
+
+        }
+
+        .main_r {
+            float: left;
+            // padding-bottom: .373333rem;
+            // border-bottom: .013333rem dotted #ccc;
+
+            .p1 {
+                font-size: .373333rem;
+                font-weight: 600;
+
+                .span1 {
+                    display: inline-block;
+                    border-radius: .066667rem;
+
+
+                    background: #FBE327;
+
+                }
+
+            }
+
+            .p2 {
+                margin-top: .266667rem;
+                font-size: .266667rem;
+                line-height: .266667rem;
+
+
+                padding-left: 1.6rem;
+                background: url(../images/xx.jpg) no-repeat left center;
+                background-size: 1.6rem .266667rem;
+
+                span {
+                    display: inline-block;
+                    margin-left: 2.266667rem;
+                    color: #fff;
+                    background: #059BFC;
+                    border-radius: .066667rem;
+                }
+            }
+
+            .p3 {
+                font-size: .266667rem;
+                margin-top: .266667rem;
+
+                .p3_2 {
+                    margin-left: 2.946667rem;
+                }
+            }
+
+
+            .p4 {
+                font-size: .266667rem;
+                margin-top: .333333rem;
+                padding-bottom: .373333rem;
+                border-bottom: .013333rem dotted #ccc;
+
+
+                span {
+
+                    border: .013333rem solid #ccc;
+                }
+
+                .span2 {
+                    margin-left: .133333rem;
+                }
+
+
+            }
+
+            .p5 {
+
+                .span1 {
+                    font-size: .32rem;
+                    background: #F87273;
+                    border-radius: .066667rem;
+                    line-height: 0.32rem;
+                }
+
+                .span3 {
+                    margin-left: 1.933333rem;
+                }
+            }
+
+            .p6 {
+                margin-top: .133333rem;
+
+                .span1 {
+                    font-size: .32rem;
+                    background: #FE8D53;
+                    border-radius: .066667rem;
+                }
+
+
+            }
+
+
+        }
+
+
+
+    }
+
+}
+
+footer {
+    position: fixed;
+    left: 0rem;
+    bottom: 0rem;
+    width: 100%;
+
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background: #FFF;
+
+        li {
+            display: flex;
+            flex-direction: column;
+
+            span:nth-child(1) {
+                display: inline-block;
+                width: .533333rem;
+                height: .533333rem;
+
+
+                img {
+                    width: .533333rem;
+                    height: .533333rem;
+
+                }
+
+
+
+            }
+        }
+    }
+
+
+
+}
